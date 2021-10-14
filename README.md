@@ -1,1 +1,0 @@
-# drukhomestay.github.io
