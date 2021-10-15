@@ -154,8 +154,8 @@ html,body {
             font-size :0.85rem;
             line-height: 18px;
         }
-        #copyright{
-
+        div#copyright{
+            font-size: 0.75rem;
         }
         /* Footer End */
 
