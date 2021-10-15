@@ -246,6 +246,19 @@ html,body {
 
      }
 
+     /* extra small */
+     @media(max-width: 420px){
+
+        #flex-item p{
+            font-size: 1.125em;
+          }  
+
+          #quote p{
+            font-size: 0.9375em;
+            line-height: 21px;
+        }
+    }
+
 
      /* Bootstrap NavBar Edit  */
      @media only screen and (min-width: 610px) {
