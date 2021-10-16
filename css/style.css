@@ -250,6 +250,7 @@ html,body {
             margin-top: 0px;
             margin-left: 0;
             margin-right: 0;
+            min-height: 450px;
         }
         #flexImg-item{
             font-weight: 400;
