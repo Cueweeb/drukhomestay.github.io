@@ -81,6 +81,65 @@ html,body {
 
     /* ThemeImages End */
 
+      /* Area Content Start */
+
+    .area-gridContainer{
+        display: grid; 
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto 1fr 1fr ; 
+        grid-gap: 15px;
+        padding: 20px;
+      }
+
+     .area-gridContainer > div {
+    
+        text-align: center;
+        
+      }
+      #area-item, #area-item3{
+          grid-column: 1/3;
+      }
+
+      #area-item3{
+        height: 560px;
+      }
+      #area-item{
+          margin-bottom: 15px;
+      }
+
+      .area--img{
+          max-width: 100%;
+          height: 350px;
+          object-fit: cover;
+      }
+
+      #area--map{
+          width: 100%;
+          height: 100%;
+      }
+      #area-item > h2{
+          font-weight: 400;
+          font-size: 1.875rem;
+          margin-bottom: 18px;
+      }
+      #area-para{
+        text-align: start;
+        padding: 10px;
+      }
+      #area-para > h4{
+        font-size: 	1.375rem;
+        font-weight: 500;  
+        text-align: start;
+      }
+      #area-item3 > h4{
+          padding-left: 11px;
+          font-size: 1.7rem;
+          font-weight: 500;  
+           text-align: start;
+      }
+
+
+    /* Area Content End */
 
      /* Footer Start */
     footer{
@@ -166,9 +225,43 @@ html,body {
         ul.nav{
             font-size: 0.94rem;
         }
+        #flexImg-item{
+            font-size: 2.125rem;
+        }
+        #title-name{
+            font-size: 2.875rem;
+        }
    
         /* NavBar End */
 
+          /* Area Content Start */
+
+         .area-gridContainer{
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            }
+            #area-item1, #area-item2{
+              grid-column: 1/3;
+            }
+            #area-item > h2{
+                font-size: 1.75rem;
+            }
+            #area-para > h4{
+                font-size: 	1.25rem;
+            }
+            .area--img{
+                height: 450px;
+            }
+            #area-item3{
+                height: 400px;
+            }
+
+            #area-item3 > h4{
+                font-size: 1.5rem;
+            }
+      
+
+    /* Area Content End */
         
          /* Footer Start */
         #flex-item{
@@ -262,6 +355,17 @@ html,body {
         }
 
         /* ThemeImages End */
+
+        /* Area Content Start */
+        #area-item > h2{
+            font-size: 1.35rem;
+        }
+        .area--img{
+            max-width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        /* Area Content End */
 
          /* Footer Start */
          #flex-item{
