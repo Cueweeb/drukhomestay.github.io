@@ -50,11 +50,11 @@ html,body {
     /* ThemeImages Start */
 
     #main-img{
-        background: url('../img/demo-kanchenjunga.jpg') no-repeat;
+        background: url('../img/room/kanchenjunga.jpg') no-repeat;
         max-height: 0px;
         min-height: 500px;
         background-size: cover;
-        background-position: 50% 50%;
+        background-position: 50% 52%;
 
         display: flex;
         justify-content: center;
@@ -62,6 +62,7 @@ html,body {
 
         margin-top: 82px;
     }
+   
     #flexImg-item{
         color: #fff;
         font-weight: 300;
@@ -109,7 +110,7 @@ html,body {
         margin-right: 200px;
      }
       #houseImg-container .carousel-control{
-          opacity: 0.1;
+          opacity: 1;
       }
       .carousel-control:focus, .carousel-control:hover{
         opacity: .4;
@@ -415,6 +416,7 @@ html,body {
         .navbar-header{
             padding: 1.5rem;
         }
+       
 
         ul.nav{
             font-size: 0.9375rem;
@@ -448,7 +450,8 @@ html,body {
             margin-top: 0px;
             margin-left: 0;
             margin-right: 0;
-            min-height: 450px;
+            min-height: 420px;
+            background-position: 50% 10%;
         }
         #flexImg-item{
             font-weight: 400;
