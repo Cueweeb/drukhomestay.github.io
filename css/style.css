@@ -298,14 +298,6 @@ html,body {
      /* Footer End */
 
 
-    /* @media (min-width: 1201px){
-
-        #room-item4 #room-para{
-            padding: 0 290px;
-           
-        }
-    } */
-
     /* Medium screen */
 
     @media(max-width: 768px){
@@ -365,6 +357,12 @@ html,body {
 
             #room-para > h5{
                 font-size: 1.125rem;
+            }
+            #myCarousel4 .carousel-control.left{
+                margin-left: 0;
+            }
+             #myCarousel4 .carousel-control.right{
+               margin-right: 0;
             }
       
 
@@ -535,6 +533,19 @@ html,body {
 
         /* ThemeImages End */
     }
+
+    /* Trivial Responsive Fixes */
+
+    @media (max-width: 995px) and (min-width: 768px){
+        #myCarousel4 .carousel-control.left{
+            margin-left: 80px;
+        }
+         #myCarousel4 .carousel-control.right{
+           margin-right: 80px;
+        }
+    }
+
+    /* Trivial Responsive Fixes END */
 
 
      /* Bootstrap NavBar Edit  */
