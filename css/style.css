@@ -73,6 +73,14 @@ html,body {
         display: block;
         font-size: 3.125rem;
         font-weight: 400;
+
+        /* text-shadow: 0px 0px 20px #ffa46d; */
+    }
+    #main-img > h1{
+        text-shadow: 5px 0px 23px #ffa46d;
+    }
+    #lamahatta{
+        text-shadow: 5px 0px 25px #ffa46d;
     }
 
     /* ThemeImages End */
