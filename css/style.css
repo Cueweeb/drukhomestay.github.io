@@ -2,7 +2,7 @@
     font-size: 16px;
     }
 body{
-    background-color: #e7e7e7;
+    background-color: #eee;
     color: #333;
 
     font-family: 'Montserrat', sans-serif;
@@ -13,6 +13,7 @@ html,body {
     padding:0;
     overflow-x:hidden;
 }
+
 
     /* NavBar Start */
     .navbar{
@@ -28,6 +29,7 @@ html,body {
         font-size: 1.75rem;
         font-weight: 300;
         color: #333 !important;
+        text-shadow: 0px 1px 1px rgb(197, 197, 197) ;
     }
 
     ul.nav{
@@ -86,7 +88,10 @@ html,body {
     /* ThemeImages End */
 
       /* Area Content Start */
-
+    
+    h2{
+        text-shadow: 0px 1px 1px rgb(195 196 196) ;
+    }
     .area-gridContainer{
         display: grid; 
         grid-template-columns: 1fr 1fr;
