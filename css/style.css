@@ -203,10 +203,41 @@ html,body {
      #room-item1 > h2{
          margin-bottom: 35px;
      }
-     #room-para > h5{
+     #room-para h5{
          font-family: Arial, Helvetica, sans-serif;
          font-size: 1.25rem;
          padding: 10px 20px;
+         margin-top: 16px;
+         line-height: 21px;
+         letter-spacing: 0.5px;
+     }
+     #room-para > p{
+         font-size: 15px;
+         line-height: 21px;
+         font-weight: 400;
+         letter-spacing: 0.2;
+         margin-top: 22px;
+     }
+     #room-para > ul{
+         font-size: 16px;
+         padding-left: 120px;
+         font-weight: 500;
+     }
+     #price{
+        font-weight: 600;
+    }
+     .-button{
+         display: flex;
+         justify-content: center;
+     }
+     #room-para button{
+         font-size: 16.5px;
+         font-weight: 500;
+         box-shadow: 0 1px 2px rgb(219, 219, 219);
+     }
+     #room-para button:active{
+        box-shadow: 0 0 1px rgb(187, 187, 187);
+        transform: translateY(2px);
      }
      #room-item1, #room-item5{
          padding: 20px 0px;
@@ -231,13 +262,7 @@ html,body {
         object-fit: contain;
         margin: auto;
     }
-    /* #fit-img{
-     object-position: center;
-
-    }
-    #myCarousel8{
-       max-height: 345.237px;
-    } */
+    
    
 
     /* Area Content End */
@@ -294,6 +319,14 @@ html,body {
     #media p{
         margin-bottom: 0.95rem;
         font-size: 1.1rem;
+    }
+    #num a{
+        text-decoration-line: none;
+        color: rgb(115, 208, 224);
+        text-shadow: 0px 1px 1px rgb(50, 133, 148);
+    }
+    #num a:hover, #num a:focus{
+        color: aqua;
     }
    h3#media-h3{
        margin-bottom: 40px ;
@@ -377,6 +410,23 @@ html,body {
             }
              #myCarousel4 .carousel-control.right{
                margin-right: 0;
+            }
+            #room-para p{
+                font-size: 14px;
+                line-height: 18px;
+
+            }
+            #room-para ul{
+                margin-left: 50px;
+                margin-top: 20px;
+                font-size: 14.5px;
+            }
+            #room-para h5{
+                text-align: center;
+                font-size: 16px;
+            }
+            #room-para button{
+                font-size: 16px;
             }
       
 
@@ -530,7 +580,7 @@ html,body {
      }
 
      /* extra small */
-     @media(max-width: 420px){
+     @media(max-width: 447px){
 
             /* Footer Start */
         #flex-item p{
@@ -545,11 +595,39 @@ html,body {
 
          /* ThemeImages Start */
 
+         #room-para p{
+            
+        }
+        #room-para ul{
+            margin-left: 0px;
+            padding-left: 60px;
+            margin-top: 20px;
+            
+        }
+        #room-para h5{
+            margin-top: 0;
+            padding-top: 0;
+        }
+        #room-para button{
+          
+        }
 
         /* ThemeImages End */
     }
 
     /* Trivial Responsive Fixes */
+    @media(max-width: 1200px) and (min-width: 995px){
+        #room-para h5{
+            font-size: 1.15rem;
+            padding: 10px 10px;
+            padding-top: 0;
+            margin-top: 15px;
+            padding-left: 0;
+        }
+        #room-para button{
+            font-size: 15px;
+        }
+    }
 
     @media (max-width: 995px) and (min-width: 768px){
         #myCarousel4 .carousel-control.left{
@@ -557,6 +635,29 @@ html,body {
         }
          #myCarousel4 .carousel-control.right{
            margin-right: 80px;
+        }
+        #room-para h5{
+            font-size:1.1rem;
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 995px) and (min-width: 890px){
+        .container{
+            width: 900px ;
+        }
+    }
+    @media (max-width: 891px) and (min-width: 788px){
+        .container{
+            width: 800px;
+        }
+        #room-para ul{
+            padding-left: 10px;
+        }
+    }
+    @media (max-width: 891px) and (min-width: 768px){
+        #room-para ul{
+            padding-left: 10px;
         }
     }
 
