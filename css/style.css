@@ -325,6 +325,21 @@ strong{
     #media p{
         margin-bottom: 0.95rem;
         font-size: 1.1rem;
+        
+    }
+    #media a, #mail a{
+        text-decoration: none;
+        color: #fff;
+        text-align: center;
+    }
+    #media a:hover{
+        color: rgb(115, 208, 224) ;
+    }
+    #mail a{
+        color: rgb(115, 208, 224);
+    }
+    #mail a:hover{
+        color: rgb(106, 224, 245);
     }
     #num a{
         text-decoration-line: none;
