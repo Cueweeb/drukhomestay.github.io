@@ -16,10 +16,10 @@ html,body {
 strong{
     font-weight: 600;
 }
- body:after{
+ /* body:after{
     display:none;
-    content: url("../img/room/kanchenjunga.jpg");
-}
+    content: url('../img/room/kanchenjunga.jpg');
+} */
 
 /* Bookmark Start  */
     div#bookmark{
@@ -88,6 +88,10 @@ strong{
 
 
     /* ThemeImages Start */
+
+    div#preload {
+        display: none;
+    }
 
     #main-img{
         background: url('../img/room/kanchenjunga.jpg') no-repeat;
