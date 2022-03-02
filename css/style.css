@@ -18,7 +18,7 @@ strong{
 }
  body:after{
     display:none;
-    content: url("../img/room/kanchenjunga.jpg") url(img02.png) url(img03.png);
+    content: url("../img/room/kanchenjunga.jpg");
 }
 
 /* Bookmark Start  */
