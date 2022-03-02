@@ -16,6 +16,41 @@ html,body {
 strong{
     font-weight: 600;
 }
+body::after{
+     position:absolute; width:0; height:0; overflow:hidden; z-index:-1; /* hide images  */
+    content:url('../img/room/kanchenjunga.jpg');   /* load images */
+ }
+
+/* Bookmark Start  */
+    div#bookmark{
+        display: block;
+        flex-direction: column;
+        position: fixed;
+        top: 200px;
+
+        width: 100px;
+        margin-left: 0;
+      }
+
+      div#bookmark div{
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 5px;
+        margin: 2px;
+        margin-left: 0;
+
+        border-radius: 15px 50px 30px 5px;
+      }
+
+      #bookmark a{
+        text-decoration-line: none;
+         color: black;
+      }
+
+      #bookmark div:hover{
+        transform:translateX(3px)
+      }
+      /* Bookmark End  */
 
 
     /* NavBar Start */
@@ -481,6 +516,11 @@ strong{
 
      @media(max-width: 610px){
 
+        /* Bookmark Start */
+        div#bookmark{
+            display: flex;
+        }
+        /* Bookmark Start */
         /* NavBar Start */
 
         #cheekyFlex{
