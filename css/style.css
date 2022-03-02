@@ -16,10 +16,10 @@ html,body {
 strong{
     font-weight: 600;
 }
-body::after{
-     position:absolute; width:0; height:0; overflow:hidden; z-index:-1; /* hide images  */
-    content:url('../img/room/kanchenjunga.jpg');   /* load images */
- }
+ body:after{
+    display:none;
+    content: url("../img/room/kanchenjunga.jpg") url(img02.png) url(img03.png);
+}
 
 /* Bookmark Start  */
     div#bookmark{
