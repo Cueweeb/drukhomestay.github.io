@@ -16,17 +16,14 @@ html,body {
 strong{
     font-weight: 600;
 }
- /* body:after{
-    display:none;
-    content: url('../img/room/kanchenjunga.jpg');
-} */
 
 /* Bookmark Start  */
     div#bookmark{
-        display: block;
+        display: none;
         flex-direction: column;
         position: fixed;
         top: 200px;
+        z-index: 1;
 
         width: 100px;
         margin-left: 0;
@@ -48,7 +45,7 @@ strong{
       }
 
       #bookmark div:hover{
-        transform:translateX(3px)
+        transform:translateX(2px)
       }
       /* Bookmark End  */
 
@@ -140,6 +137,8 @@ strong{
         grid-template-rows: auto auto 1fr 1fr ; 
         grid-gap: 15px;
         padding: 20px;
+        padding-top: 0;
+        padding-bottom: 60px;
       }
 
      .area-gridContainer > div {
@@ -224,6 +223,8 @@ strong{
         grid-template-rows: auto;
         grid-gap: 15px;
         padding: 20px;
+        padding-top: 0;
+        padding-bottom: 0;
       }
       
       .room-gridContainer > div {
@@ -246,7 +247,7 @@ strong{
         object-fit: cover;
      }
      #room-item1 > h2{
-         margin-bottom: 35px;
+         margin-bottom: 42px;
      }
      #room-para h5{
          font-family: Arial, Helvetica, sans-serif;
@@ -279,10 +280,21 @@ strong{
          font-size: 16.5px;
          font-weight: 500;
          box-shadow: 0 1px 2px rgb(219, 219, 219);
+
+         background-color: #319af6;
+         color: white;
+         border-color: #ffffff;
+         padding: 4px;
+         padding-left: 8px;
+         padding-right: 8px;
+         
      }
      #room-para button:active{
         box-shadow: 0 0 1px rgb(187, 187, 187);
         transform: translateY(2px);
+     }
+     #room-para button:hover{
+        background-color: #3186d0;
      }
      #room-item1, #room-item5{
          padding: 20px 0px;
@@ -432,6 +444,8 @@ strong{
          .area-gridContainer{
             grid-template-columns: 1fr;
             grid-template-rows: auto;
+
+            margin-bottom: 40px;
             }
             #area-item1, #area-item2{
               grid-column: 1/3;
@@ -520,11 +534,9 @@ strong{
 
      @media(max-width: 610px){
 
-        /* Bookmark Start */
-        div#bookmark{
-            display: flex;
-        }
-        /* Bookmark Start */
+       
+
+
         /* NavBar Start */
 
         #cheekyFlex{
@@ -646,6 +658,14 @@ strong{
 
      /* extra small */
      @media(max-width: 447px){
+
+      /* BOOKMARK START */
+        div#bookmark div{
+            padding: 5px;
+            margin: 1.3px;
+          }
+     
+      /* BOOKMARK END */
 
             /* Footer Start */
         #flex-item p{
